@@ -1,0 +1,15 @@
+{
+  "name": "generic-server",
+  "version": "1.0.0",
+  "description": "generic server",
+  "main": "generic-server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "serialport": "^7.1.5",
+    "websocket": "^1.0.28"
+  }
+}

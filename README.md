@@ -1,7 +1,7 @@
 # kabk_touching
 repository for detecting people through capacitive touch sensor and distribute their data via websockets
 
-#setup
+# setup
 
 ## preparation Mac
 - open terminal (see troubleshooting)

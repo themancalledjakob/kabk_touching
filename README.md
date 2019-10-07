@@ -4,7 +4,7 @@ repository for detecting people through capacitive touch sensor and distribute t
 #setup
 
 ## preparation Mac
-- open terminal
+- open terminal (see troubleshooting)
 - install brew (http://brew.sh) type `/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
 - hit `enter`
 - wait
@@ -32,7 +32,7 @@ repository for detecting people through capacitive touch sensor and distribute t
 - upload the sketch on your arduino
 
 ## Sensor Server setup
-- open a new terminal
+- open a new terminal (see troubleshooting)
 - type `cd ` (don't forget the space at the end)
 - drag and drop the folder `kabk_touching/node/02_server/` in the terminal
 - hit `enter`
@@ -42,7 +42,7 @@ repository for detecting people through capacitive touch sensor and distribute t
 # usage
 
 ## run a sensor server
-- open a new terminal
+- open a new terminal (see troubleshooting)
 - type `cd ` (don't forget the space at the end)
 - drag and drop the folder `kabk_touching/node/02_server/` in the terminal
 - hit `enter`
@@ -65,7 +65,17 @@ tip: When changing an example, make a copy of the example folder first
 
 
 # Troubleshooting
-##I open the browser on `localhost:9999/02_threshold`, but nothing opens
+## I open the browser on `localhost:9999/02_threshold`, but nothing opens
 - could it be that you forget the last `/` in `localhost:9999/02_threshold/` ?
+
+## How do I open a terminal?
+### Mac:
+- press `cmd + space`
+- type `terminal`
+- hit `enter`
+### Windows:
+- press `Windowskey + R`
+- type `cmd`
+- hit `enter`
 
 - let me know when you run into errors or troubles! I will put here a FAQ :-)

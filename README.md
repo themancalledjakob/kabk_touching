@@ -52,7 +52,7 @@ repository for detecting people through capacitive touch sensor and distribute t
 ## tryout the example!
 - open a new terminal
 - type `cd ` (don't forget the space at the end)
-- drag and drop the folder `kabk_touching/web/` in the terminal
+- drag and drop the folder `kabk_touching/web/02_threshold` in the terminal
 - hit `enter`
 - on a mac/linux type: `php -S localhost:9999`
 - on a windows type: `python -m SimpleHTTPServer 9999`

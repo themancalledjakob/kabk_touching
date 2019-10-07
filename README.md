@@ -19,7 +19,7 @@ repository for detecting people through capacitive touch sensor and distribute t
 ## preparation Windows
 - install python (e.g. 3.7, but try different versions if it doesn't work)
 - add python path to system path (google this, it's explained on python website)
-- install node (https://nodejs.org/en/download/)
+- install node (https://nodejs.org/en/download/) installer 64bit
 
 ## Sensor setup
 - setup the sensor as described last lesson, you can look it up on either of these sites:

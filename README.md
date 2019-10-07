@@ -56,11 +56,14 @@ repository for detecting people through capacitive touch sensor and distribute t
 - on a windows type: `python -m SimpleHTTPServer 9999`
 - on a windows alternatively type: `python -m http.server 9999`
 - hit `enter`
-- open `localhost:9999/02_threshold/` in a new browser window
+- open `localhost:9999/02_threshold/` in a new browser window (don't forget the last `/`)
 
 
 tip: When changing an example, make a copy of the example folder first
 
 
 # Troubleshooting
+## I open the browser on `localhost:9999/02_threshold`, but nothing opens
+- could it be that you forget the last `/` in `localhost:9999/02_threshold/` ?
+
 - let me know when you run into errors or troubles! I will put here a FAQ :-)

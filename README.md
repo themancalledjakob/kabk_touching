@@ -36,6 +36,9 @@ repository for detecting people through capacitive touch sensor and distribute t
 - upload the sketch on your arduino
 
 ## Sensor Server setup
+
+this is wiring the resistors etc to the breadboard
+
 - open a new terminal (see troubleshooting)
 - type `cd ` (don't forget the space at the end)
 - drag and drop the folder `kabk_touching/node/02_server/` in the terminal
@@ -72,6 +75,9 @@ tip: When changing an example, make a copy of the example folder first
 
 
 # Troubleshooting
+## I cannot upload to Arduino
+- 
+
 ## I open the browser on `localhost:9999/`, but nothing opens
 - could it be that you forget the last `/` in `localhost:9999/` ?
 

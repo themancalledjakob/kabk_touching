@@ -59,18 +59,17 @@ exampleSocket.onmessage = function (event) {
             document.getElementById("tiger1audio").currentTime = 0; // rewind
         }
     }
-    // if (sensor2 === "touched") {
-    //     $('.rectangle2').not('.touched').addClass('touched');
-    //     if (audio2.paused) {
-    //         audio2.play(); // play sound
-    //     }
+    if (sensor2 === "touched") {
+        $('.rectangle2').not('.touched').addClass('touched');
+        if (audio2.paused) {
+            audio2.play(); // play sound
+        }
 
-    // } else {
-    //     $('.rectangle2').removeClass('touched');
-    //     if (!audio2.paused) {
-    //         document.getElementById("tiger2audio").pause();
-    //         document.getElementById("tiger2audio").currentTime = 0; // rewind
-    //     }
-    // }
+    } else {
+        $('.rectangle2').removeClass('touched');
+        if (!audio2.paused) {
+            document.getElementById("tiger2audio").pause();
+            document.getElementById("tiger2audio").currentTime = 0; // rewind
+        }
+    }
 }
-

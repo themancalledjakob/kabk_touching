@@ -18,16 +18,18 @@ repository for detecting people through capacitive touch sensor and distribute t
 - add python path to system path (google this, it's explained on python website)
 - install node (https://nodejs.org/en/download/)
 
-## Arduino setup
-- download this repository or clone it
-- in your file explorer go to `kabk_touching/arduino/02_threshold`
-- open `02_threshold.ino` with Arduino software
-- upload the sketch on your arduino
-
 ## Sensor setup
 - setup the sensor as described last lesson, you can look it up on either of these sites:
 - https://playground.arduino.cc/Main/CapacitiveSensor/
 - https://www.instructables.com/id/How-To-Use-Touch-Sensors-With-Arduino/
+
+## Arduino setup
+- download this repository or clone it
+- in your file explorer go to `kabk_touching/arduino/02_threshold`
+- open `02_threshold.ino` with Arduino software
+- in Arduino software go to `Sketch/include library/manage libraries`
+- search and install `CapacitiveSensor` library
+- upload the sketch on your arduino
 
 ## Sensor Server setup
 - open a new terminal
@@ -63,7 +65,7 @@ tip: When changing an example, make a copy of the example folder first
 
 
 # Troubleshooting
-## I open the browser on `localhost:9999/02_threshold`, but nothing opens
+##I open the browser on `localhost:9999/02_threshold`, but nothing opens
 - could it be that you forget the last `/` in `localhost:9999/02_threshold/` ?
 
 - let me know when you run into errors or troubles! I will put here a FAQ :-)

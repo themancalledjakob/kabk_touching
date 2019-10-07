@@ -24,6 +24,11 @@ repository for detecting people through capacitive touch sensor and distribute t
 - open `02_threshold.ino` with Arduino software
 - upload the sketch on your arduino
 
+## Sensor setup
+- setup the sensor as described last lesson, you can look it up on either of these sites:
+- https://playground.arduino.cc/Main/CapacitiveSensor/
+- https://www.instructables.com/id/How-To-Use-Touch-Sensors-With-Arduino/
+
 ## Sensor Server setup
 - open a new terminal
 - type `cd ` (don't forget the space at the end)

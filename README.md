@@ -5,9 +5,12 @@ repository for detecting people through capacitive touch sensor and distribute t
 
 ## preparation Mac
 - open terminal (see troubleshooting)
-- install brew (http://brew.sh) type `/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
+- install brew (http://brew.sh)
+- type `/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
+- during the process it asks you to hit "return" to continue or another key to abort (hit return!)
+- enter the password for your computer (you won't see *'s appearing while you type)
 - hit `enter`
-- wait
+- wait until it finishes (it should say 'Installation successul')
 - type `brew update`
 - hit `enter`
 - type `brew install node`
@@ -22,6 +25,7 @@ repository for detecting people through capacitive touch sensor and distribute t
 - setup the sensor as described last lesson, you can look it up on either of these sites:
 - https://playground.arduino.cc/Main/CapacitiveSensor/
 - https://www.instructables.com/id/How-To-Use-Touch-Sensors-With-Arduino/
+- there is also an image on slack
 
 ## Arduino setup
 - download this repository or clone it
@@ -50,6 +54,9 @@ repository for detecting people through capacitive touch sensor and distribute t
 - hit `enter`
 
 ## tryout the example!
+
+either you can use live-preview in brackets for the examples, or do this:
+
 - open a new terminal
 - type `cd ` (don't forget the space at the end)
 - drag and drop the folder `kabk_touching/web/02_threshold` in the terminal

@@ -28,7 +28,7 @@ repository for detecting people through capacitive touch sensor and distribute t
 - there is also an image on slack
 
 ## Arduino setup
-- download this repository or clone it
+- download this repository or clone it (scroll up, the green button download ZIP)
 - in your file explorer go to `kabk_touching/arduino/02_threshold`
 - open `02_threshold.ino` with Arduino software
 - in Arduino software go to `Sketch/include library/manage libraries`

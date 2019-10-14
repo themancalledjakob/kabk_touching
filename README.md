@@ -44,6 +44,9 @@ tip: When changing an example, make a copy of the example folder first
 ## I cannot upload to Arduino
 - check that the port is selected under Tools/Port
 
+## When I doubleclick on runMac.command (I'm on a Mac) I get an error that it is from an unidentified developer
+- Go to System Preferences/Security & Privacy/General and click on "Open Anyway"
+Reason is that the little script is not downloaded via the appstore.
 
 ## I open the browser on `localhost:9999/`, but nothing opens
 - could it be that you forget the last `/` in `localhost:9999/` ?

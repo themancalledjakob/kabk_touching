@@ -6,7 +6,6 @@ pause
 set NULL_VAL=null
 set NODE_VER=%NULL_VAL%
 set NODE_EXEC=node-v10.15.3-x86.msi
-pause
 node -v >.tmp_nodever
 set /p NODE_VER=<.tmp_nodever
 del .tmp_nodever
@@ -26,5 +25,7 @@ IF "%NODE_VER%"=="%NULL_VAL%" (
 )
 
 npm install
-node generic-server.js 
+
+set /P id="Enter the Arduino Port (find it under Tools/Port in the arduino software): "
+node generic-server.js %id%
 pause

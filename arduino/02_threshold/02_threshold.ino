@@ -36,6 +36,14 @@ void loop()
     Serial.print(output1);                  // print sensor output 1
     Serial.print(",");
     Serial.println(output2);                  // print sensor output 2
+    Serial.print(",");
+    Serial.print(total1);                  // print raw sensor output 1
+    Serial.print("/");
+    Serial.print(threshold_1);                  // print sensor threshold 1
+    Serial.print(",");
+    Serial.println(total2);                  // print raw sensor output 2
+    Serial.print("/");
+    Serial.print(threshold_2);                  // print sensor threshold 2
 
     delay(100);                             // arbitrary delay to limit data to serial port 
 }

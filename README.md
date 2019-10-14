@@ -44,17 +44,21 @@ tip: When changing an example, make a copy of the example folder first
 
 
 # Troubleshooting
-## I cannot upload to Arduino
-- check that the port is selected under Tools/Port
-
 ## When I doubleclick on runMac.command (I'm on a Mac) I get an error that it is from an unidentified developer
 - Go to System Preferences/Security & Privacy/General and click on "Open Anyway"
 Reason is that the little script is not downloaded via the appstore.
 
-## I open the browser on `localhost:9999/`, but nothing opens
-- could it be that you forget the last `/` in `localhost:9999/` ?
+## I cannot upload to Arduino
+- check that the port is selected under Tools/Port
+- should that not work, check the next point
+
+## It all worked once, but now I cannot upload new code to my arduino
+- the arduino can only "talk" to one thing at the time. Try closing the window that opened when you doubleclicked (which prints "free,touched" etc) and try again. This is the server, which reads arduino data and sends it to the browser. When it's open, it blocks access and therefore you cannot upload.
 
 ## How do I open a terminal?
+You don't need terminal anymore! :-)
+If you still want to open it anyway for any reason, do it like this:
+
 ### Mac:
 - press `cmd + space`
 - type `terminal`

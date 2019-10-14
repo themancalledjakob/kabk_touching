@@ -6,6 +6,9 @@ repository for detecting people through capacitive touch sensor and distribute t
 ## preparation
 - install node from https://nodejs.org/en/
 
+### On windows:
+- doubleclick on 'setupWindows.bat' on Windows (the ".bat" might be hidden by file explorer)
+
 ## Sensor setup
 - setup the sensor as described last lesson, you can look it up on either of these sites:
 - https://playground.arduino.cc/Main/CapacitiveSensor/
@@ -25,7 +28,7 @@ repository for detecting people through capacitive touch sensor and distribute t
 ## run a sensor server
 
 - doubleclick on 'runMac.command' on a Mac
-- doubleclick on 'runSensorServerWindows.bat' on Windows (the ".bat" might be hidden by file explorer)
+- doubleclick on 'runWindows.bat' on Windows (the ".bat" might be hidden by file explorer)
 
 ## tryout the example!
 

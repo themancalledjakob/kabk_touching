@@ -26,6 +26,3 @@ IF "%NODE_VER%"=="%NULL_VAL%" (
 
 npm install
 
-set /P id="Enter the Arduino Port (find it under Tools/Port in the arduino software): "
-node generic-server.js %id%
-pause
